@@ -22,7 +22,7 @@ namespace NeptuneEvo.Discord
         public static DiscordSocketClient Client { get; private set; }
         private static nLog LogWrite = new nLog("BOT");
 
-        public static string Token = "MTM2OTM4NzE3MjU5NTEwNTgwNA.GtULXf.BBHoTP9yGAyEgTS3trEYu57GrVwxWrdF1IlKHs";
+        public static string Token = "1";
         public static ulong DiscordServerId = 720676827429077004;
         public static ulong FullLogsChannelId = 1304210751124279326;
         public static ulong NotificationsChannelId = 1369387852043124787;
