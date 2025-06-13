@@ -21,6 +21,7 @@ using NeptuneEvo.Table.Tasks.Models;
 using NeptuneEvo.Core.Armor;
 using NeptuneEvo.AleSystems;
 
+
 namespace NeptuneEvo.Character.Load
 {
     public class Repository
@@ -182,23 +183,9 @@ namespace NeptuneEvo.Character.Load
                         characterData.Licenses = new List<bool>() { false, false, false, false, false, false, false, false, false };
                     }
                     try
-                    {
-                        characterData.Achievements = JsonConvert.DeserializeObject<List<bool>>(character.Achiev);
-                        if (characterData.Achievements == null)
-                        {
-                            characterData.Achievements = new List<bool>();
-                            for (uint i = 0; i != 401; i++) 
-                                characterData.Achievements.Add(false);
-                        }
-                    }
-                    catch
-                    {
-                        characterData.Achievements = new List<bool>();
-                        for (uint i = 0; i != 401; i++) 
-                            characterData.Achievements.Add(false);
-                    }
-
-                    try
+                    
+                    
+                   
                     {
                         characterData.Contacts = JsonConvert.DeserializeObject<Dictionary<int, string>>(character.Contacts);
                     }
@@ -280,6 +267,7 @@ namespace NeptuneEvo.Character.Load
 
                     //
 
+
                     var fractionTasksData = JsonConvert.DeserializeObject<TableTaskPlayerData[]>(character.FractionTasksData);
                     
 
@@ -307,6 +295,7 @@ namespace NeptuneEvo.Character.Load
                         }
                         indexCase++;
                     }
+
                     accountData.FreeCase = new int[3] { 0, 0, 0 };
                     
                     //
@@ -320,6 +309,7 @@ namespace NeptuneEvo.Character.Load
                     Trigger.SetSharedData(player, "UUID", character.Uuid);
                     Trigger.ClientEvent(player, "showpersonid", characterData.UUID);
                     //
+
 
                     NAPI.Task.Run(() =>
                     {
@@ -376,9 +366,11 @@ namespace NeptuneEvo.Character.Load
                             //
                             
                             player.SetBattlePassData(battlePassData);
+
                             
+
                             //
-                            
+
                             if (missionTask == null)
                                 player.SetMissionTask(new MissionData());
                             else 

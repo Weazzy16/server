@@ -51,7 +51,7 @@ namespace NeptuneEvo.Character.Create
                     FirstName = firstName,
                     LastName = lastName,
                     Licenses = new List<bool>() { false, false, false, false, false, false, false, false, false },
-                    Achievements = new List<bool>(),
+                   // Achievements = new List<bool>(),
                     SpawnPos = Customization.GetSpawnPos(),
                 };
 
@@ -60,7 +60,7 @@ namespace NeptuneEvo.Character.Create
 
                 Main.PlayerBankAccs.TryAdd(fullname, characterData.Bank);
 
-                for (uint i = 0; i != 401; i++) characterData.Achievements.Add(false);
+                //for (uint i = 0; i != 401; i++) characterData.Achievements.Add(false);
 
                 characterData.Money = Convert.ToInt64(Main.MoneySettings.CreateCharMoney);
 
@@ -96,7 +96,6 @@ namespace NeptuneEvo.Character.Create
                     Hotel = characterData.HotelID,
                     Hotelleft = characterData.HotelLeft,
                     Contacts = JsonConvert.SerializeObject(characterData.Contacts),
-                    Achiev = JsonConvert.SerializeObject(characterData.Achievements),
                     Sim = characterData.Sim,
                     PetName = "null",
                     Pos = JsonConvert.SerializeObject(characterData.SpawnPos),

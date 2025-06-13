@@ -52,6 +52,7 @@ function handleCaseTitle(e) {
       { word: 'Q1', replacement: 'Квесты' },
       { word: 'Q2', replacement: 'Ежедневные' },
       { word: 'Q3', replacement: 'Бонусы' },
+      { word: 'Q4', replacement: 'Достижения' },
       { word: 'Report', replacement: 'Обращения' },
       { word: 'BP1', replacement: 'Главная' },
       { word: 'BP2', replacement: 'Купить опыт' },
@@ -175,6 +176,7 @@ function handleCaseTitle(e) {
       Q1: Quests,
       Q2: Rewrad,
       Q3: Rewrad,
+      Q4: Rewrad,
       Report,
       BP1: BattlePass,
       BP2: BattlePass,
@@ -445,7 +447,7 @@ function handleCaseTitle(e) {
           <li
             class="namenav"
             tabindex="0"
-            class:active={selectView === 'Q1' || selectView === 'Q2' || selectView === 'Q3'}
+            class:active={selectView === 'Q1' || selectView === 'Q2' || selectView === 'Q3'|| selectView === 'Q4'}
           >
             <div
               class="navblock"
@@ -470,6 +472,7 @@ function handleCaseTitle(e) {
               <li tabindex="0" on:click|stopPropagation={() => handleSelect('Q1')} class:active={selectView === 'Q1'}><div class="line vertical"></div><div class="line horizontal"></div><p>Квесты</p></li>
               <li tabindex="0" on:click|stopPropagation={() => handleSelect('Q2')} class:active={selectView === 'Q2'}><div class="line vertical"></div><div class="line horizontal"></div><p>Ежедневные</p></li>
               <li tabindex="0" on:click|stopPropagation={() => handleSelect('Q3')} class:active={selectView === 'Q3'}><div class="line vertical"></div><div class="line horizontal"></div><p>Бонусы</p></li>
+              <li tabindex="0" on:click|stopPropagation={() => handleSelect('Q4')} class:active={selectView === 'Q4'}><div class="line vertical"></div><div class="line horizontal"></div><p>Достижения</p></li>
             </ul>
           </li>
         

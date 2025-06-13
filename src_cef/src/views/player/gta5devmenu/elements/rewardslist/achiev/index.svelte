@@ -76,167 +76,6 @@
           imagePath: 'https://cdn.majestic-files.com/public/master/static/img/inventory/items/525.png',
           title: 'BIOLINK'
         }
-      },
-      {
-        id: 'g2',
-        byQuest: 'fun',
-        title: 'Жаворонок',
-        additionalTitle: 'Получите PayDay с 05:00 по 08:00',
-        type: 'inprogress',
-        completedvalue: 0,
-        targetValue: 1,
-        award: {
-          type: 'item',
-          color: 'blue',
-          imagePath: 'https://cdn.majestic-files.com/public/master/static/img/inventory/items/525.png',
-          title: 'BIOLINK'
-        }
-      },
-      {
-        id: 'g3',
-        byQuest: 'fin',
-        title: 'Заработайте на угоне автомобилей',
-        type: 'inprogress',
-        completedvalue: 16225,
-        targetValue: 50000,
-        award: {
-          type: 'case',
-          color: 'purple',
-          imagePath: 'https://cdn.majestic-files.com/public/master/static/img/panelMenu/donate/cases/vehicles.png',
-          title: 'Кейс: Премиум автомобили'
-        }
-      },
-      {
-        id: 'g1',
-        byQuest: 'allTypes',
-        title: 'Бессонница',
-        additionalTitle: 'Получите PayDay с 01:00 по 04:00',
-        type: 'inprogress',
-        completedvalue: 1,
-        targetValue: 1,
-        award: {
-          type: 'item',
-          color: 'blue',
-          imagePath: 'https://cdn.majestic-files.com/public/master/static/img/inventory/items/525.png',
-          title: 'BIOLINK'
-        }
-      },
-      {
-        id: 'g2',
-        byQuest: 'fun',
-        title: 'Жаворонок',
-        additionalTitle: 'Получите PayDay с 05:00 по 08:00',
-        type: 'inprogress',
-        completedvalue: 0,
-        targetValue: 1,
-        award: {
-          type: 'item',
-          color: 'blue',
-          imagePath: 'https://cdn.majestic-files.com/public/master/static/img/inventory/items/525.png',
-          title: 'BIOLINK'
-        }
-      },
-      {
-        id: 'g3',
-        byQuest: 'fin',
-        title: 'Заработайте на угоне автомобилей',
-        type: 'inprogress',
-        completedvalue: 16225,
-        targetValue: 50000,
-        award: {
-          type: 'case',
-          color: 'purple',
-          imagePath: 'https://cdn.majestic-files.com/public/master/static/img/panelMenu/donate/cases/vehicles.png',
-          title: 'Кейс: Премиум автомобили'
-        }
-      } ,
-      {
-        id: 'g1',
-        byQuest: 'allTypes',
-        title: 'Бессонница',
-        additionalTitle: 'Получите PayDay с 01:00 по 04:00',
-        type: 'inprogress',
-        completedvalue: 1,
-        targetValue: 1,
-        award: {
-          type: 'item',
-          color: 'blue',
-          imagePath: 'https://cdn.majestic-files.com/public/master/static/img/inventory/items/525.png',
-          title: 'BIOLINK'
-        }
-      },
-      {
-        id: 'g2',
-        byQuest: 'fun',
-        title: 'Жаворонок',
-        additionalTitle: 'Получите PayDay с 05:00 по 08:00',
-        type: 'inprogress',
-        completedvalue: 0,
-        targetValue: 1,
-        award: {
-          type: 'item',
-          color: 'blue',
-          imagePath: 'https://cdn.majestic-files.com/public/master/static/img/inventory/items/525.png',
-          title: 'BIOLINK'
-        }
-      },
-      {
-        id: 'g3',
-        byQuest: 'fin',
-        title: 'Заработайте на угоне автомобилей',
-        type: 'inprogress',
-        completedvalue: 16225,
-        targetValue: 50000,
-        award: {
-          type: 'case',
-          color: 'purple',
-          imagePath: 'https://cdn.majestic-files.com/public/master/static/img/panelMenu/donate/cases/vehicles.png',
-          title: 'Кейс: Премиум автомобили'
-        }
-      },
-      {
-        id: 'g1',
-        byQuest: 'allTypes',
-        title: 'Бессонница',
-        additionalTitle: 'Получите PayDay с 01:00 по 04:00',
-        type: 'inprogress',
-        completedvalue: 1,
-        targetValue: 1,
-        award: {
-          type: 'item',
-          color: 'blue',
-          imagePath: 'https://cdn.majestic-files.com/public/master/static/img/inventory/items/525.png',
-          title: 'BIOLINK'
-        }
-      },
-      {
-        id: 'g2',
-        byQuest: 'fun',
-        title: 'Жаворонок',
-        additionalTitle: 'Получите PayDay с 05:00 по 08:00',
-        type: 'inprogress',
-        completedvalue: 0,
-        targetValue: 1,
-        award: {
-          type: 'item',
-          color: 'blue',
-          imagePath: 'https://cdn.majestic-files.com/public/master/static/img/inventory/items/525.png',
-          title: 'BIOLINK'
-        }
-      },
-      {
-        id: 'g3',
-        byQuest: 'fin',
-        title: 'Заработайте на угоне автомобилей',
-        type: 'inprogress',
-        completedvalue: 16225,
-        targetValue: 50000,
-        award: {
-          type: 'case',
-          color: 'purple',
-          imagePath: 'https://cdn.majestic-files.com/public/master/static/img/panelMenu/donate/cases/vehicles.png',
-          title: 'Кейс: Премиум автомобили'
-        }
       }
     ]
   };
@@ -349,22 +188,10 @@
             <div class="goalHeader-main row-block align-center">
               <!-- Group input+svg in one label -->
               <label class="goalHeader-main__checkbox">
-                <input
-                  type="checkbox"
-                  checked={goal.completedvalue >= goal.targetValue}
-                  on:click|preventDefault
-                />
+                <input type="checkbox" checked={goal.completedvalue >= goal.targetValue} on:click|preventDefault />
                 {#if goal.completedvalue >= goal.targetValue}
-                 <svg
-                    viewBox="0 0 14 11"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1 5.18513L4.8748 9L13 1"
-                      stroke="white"
-                      stroke-width="1.91176"
-                    />
+                 <svg viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 5.18513L4.8748 9L13 1"stroke="white" stroke-width="1.91176"/>
                   </svg>
                 {/if}
               </label>
@@ -385,9 +212,6 @@
 
           <div class="goals-list__item__award">
             <Award award={goal.award} />
-          
-
-    
             {#if goal.type === 'received'}
               <div class="background row-block align-center justify-center full-width full-height" on:click={() => getAward(goal.id)}>
                 <div class="received row-block align-center justify-center">
@@ -399,11 +223,7 @@
               <div class="completed column-block align-center justify-center">
                 <div class="icon row-block align-center justify-center">
                 <svg  viewBox="0 0 14 11" fill="none" xmlns="">
-                    <path
-                      d="M1 5.18513L4.8748 9L13 1"
-                      stroke="white"
-                      stroke-width="1.91176"
-                    />
+                    <path d="M1 5.18513L4.8748 9L13 1" stroke="white" stroke-width="1.91176" />
                   </svg>
                   </div>
                 <div class="text">Выполнено</div>

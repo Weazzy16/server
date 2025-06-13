@@ -513,9 +513,9 @@ namespace NeptuneEvo.Core
                 }
                 if (player.VehicleSeat == (int)VehicleSeat.Driver)
                 {
-                    if (!characterData.Achievements[18])
+                   // if (!characterData.Achievements[18])
                     {
-                        characterData.Achievements[18] = true;
+                   //     characterData.Achievements[18] = true;
                         
                         Players.Phone.Messages.Repository.AddSystemMessage(player, (int)DefaultNumber.Helper, LangFunc.GetText(LangType.Ru, DataName.Podskazka1), DateTime.Now);
                         Players.Phone.Messages.Repository.AddSystemMessage(player, (int) DefaultNumber.Helper, LangFunc.GetText(LangType.Ru, DataName.Podskazka2), DateTime.Now);

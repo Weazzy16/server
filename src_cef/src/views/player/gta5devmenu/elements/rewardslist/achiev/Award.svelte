@@ -1,20 +1,12 @@
 <script>
-  /**
-   * Award — компонент для отображения награды в списке ачивок
-   * Props:
-   *  - award: Object
-   *      • award.type (string) — тип награды ("item", "case", "donate")
-   *      • award.color (string) — редкость ("red", "gold", "pink", "purple", "blue", "gray", "unique")
-   *      • award.imagePath (string) — путь к иконке
-   *      • award.title (string) — название награды
-   */
+ 
   export let award;
   const { type, color, imagePath, title } = award || {};
 </script>
 
 <div class="award row-block align-center justify-start">
   <div class="award-card">
-    <!-- Rarity stripe with radial gradient inside -->
+    <!-- Rarity stripe с градиентом -->
     <div class={`award-card__rarity award-card__rarity-${color}`}>
       <svg fill="none" viewBox="0 0 16 4" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -22,10 +14,10 @@
           fill="var(--rarity-color)"
         />
       </svg>
-      <!-- Radial gradient overlay restricted to stripe -->
       <div class="award-card__rarity__radial-gradient"></div>
     </div>
-    <!-- Item image -->
+
+    <!-- Иконка награды -->
     <img
       src={imagePath}
       alt={title}

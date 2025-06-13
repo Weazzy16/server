@@ -804,9 +804,9 @@ namespace NeptuneEvo.Events
                                             LobbyList[index].TR_Players[foreachPlayer].Health = (!LobbyList[index].TR_RandomGun) ? 50 : 100;
                                             LobbyList[index].Vehicles.Add(veh);
                                             Trigger.ClientEvent(foreachPlayer, "setIntoVehicle", veh, VehicleSeat.Driver - 1);
-                                            if (!foreachCharacterData.Achievements[27])
+                                           // if (!foreachCharacterData.Achievements[27])
                                             {
-                                                foreachCharacterData.Achievements[27] = true;
+                                             //   foreachCharacterData.Achievements[27] = true;
                                                 Notify.Send(foreachPlayer, NotifyType.Alert, NotifyPosition.BottomCenter, LangFunc.GetText(LangType.Ru, DataName.HowToJump), 5000);
                                             }
                                             id++;

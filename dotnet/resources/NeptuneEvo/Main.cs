@@ -4745,8 +4745,8 @@ namespace NeptuneEvo
                         BattlePass.Repository.UpdateReward(foreachPlayer, 158);
                         //Trigger.ClientEvent(foreachPlayer, "phone.notify", 4386, $"Пришёл PayDay!", 5);
 
-                      
 
+                        
                         foreachCharacterData.LastHourMin = 0;
                         //Chars.Repository.PlayerStats(player);
                     }

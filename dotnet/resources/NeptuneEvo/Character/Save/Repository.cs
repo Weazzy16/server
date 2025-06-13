@@ -77,7 +77,6 @@ namespace NeptuneEvo.Character.Save
                     .Set(v => v.Lasthour, characterData.LastHourMin)
                     .Set(v => v.Demorgan, characterData.DemorganTime)
                     .Set(v => v.Contacts, JsonConvert.SerializeObject(characterData.Contacts))
-                    .Set(v => v.Achiev, JsonConvert.SerializeObject(characterData.Achievements))
                     .Set(v => v.Sim, characterData.Sim)
                     .Set(v => v.PetName, characterData.PetName)
                     .Set(v => v.Demorganinfo, JsonConvert.SerializeObject(characterData.DemorganInfo))

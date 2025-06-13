@@ -1,0 +1,686 @@
+@import url('https://fonts.cdnfonts.com/css/montsset-bold');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    user-select: none;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("./Fram.svg"); */
+    background-size: cover;
+}
+
+.onlinetext1 {
+    position: absolute;
+    width: 9.2;
+    top: 2.6vw;
+    right: 14.5vw;
+
+    color: gray;
+	font: mr_Daray;
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.029380341880341884vw;
+}
+
+.idtext {
+    position: absolute;
+    width: 9.2;
+    top: 2.6vw;
+    right: 20.4vw;
+
+    color: gray;
+	font: mr_Daray;
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.029380341880341884vw;
+}
+
+.statictext {
+    position: absolute;
+    width: 9.2;
+    top: 2.6vw;
+    right: 27.1vw;
+
+    color: gray;
+	font: mr_Daray;
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.029380341880341884vw;
+}
+
+.static {
+    position: absolute;
+    width: 9.2vw;
+    top: 1.59vw;
+    right: 20.05vw;
+
+	font: mr_Daray;
+    font-family: monospace;
+}
+
+.statictext1 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 4.2vw;
+    right: 5.5vw;
+
+    color: #f1f1f1;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.029380341880341884vw;
+}
+
+.onlinenum a {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 2.21vw;
+    right: 6.9vw;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.7478632478632479vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.04113247863247863vw;
+}
+
+.onlinenum b {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 2.3vw;
+    right: 9.1vw;
+
+    color: #AFAFAD;
+    font-family: Montserrat;
+    font-size: 0.5876068376068376vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.03231837606837607vw;
+}
+
+.chelovek2 img {
+    position: absolute;
+    width: 2vw;
+    height: 1vw;
+    top: 1.6vw;
+    right: 20vw;
+}
+
+.chelovek3 img {
+    position: absolute;
+    width: 2vw;
+    height: 1vw;
+    top: 1.6vw;
+    right: 26.3vw;
+}
+
+.chelovek img {
+    position: absolute;
+    width: 2vw;
+    height: 1vw;
+    top: 1.6vw;
+    right: 14vw;
+}
+
+.datanum a {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 5vw;
+    right: 3.5vw;
+
+    color: #FFF;
+    font: Gilroy;
+    font-family: Gilroy;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.04113247863247863vw;
+}
+
+.datanum b {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 7vw;
+    right: 2.85vw;
+
+    color: #AFAFAD;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.03231837606837607vw;
+}
+
+.staticid {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 4.2vw;
+    right: 6.5vw;
+
+    color: #f1f1f1;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.029380341880341884vw;
+}
+
+.palochka {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 4.2vw;
+    right: 5.7vw;
+
+    color: #AFAFAD;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.029380341880341884vw;
+}
+
+.staticnum b {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 2.3vw;
+    right: 15.7vw;
+
+    color: #AFAFAD;
+    font-family: Montserrat;
+    font-size: 0.5876068376068376vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.03231837606837607vw;
+}
+
+.greenzone img {
+    position: absolute;
+    width: 6.837606837606837vw;
+    height: 2.3504273504273505vw;
+    top: 11vw;
+    right: 2vw;
+}
+
+.hints {
+    position: absolute;
+    top: 60%;
+    right: -97.5vw;
+    transform: translate(0%, -50%);
+    display: grid;
+    grid-template-rows: repeat(1, 3vh);
+    grid-gap: 0.9vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+}
+
+.hints-btn {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6410256410256411vw;
+    font-family: Montserrat;
+    text-align: center;
+    font-weight: 500;
+    padding: 0.2vh;
+    height: 1.8162393162393162vw;
+    min-width: 1.8162393162393162vw;
+    background: rgba(28, 28, 28, 0.6);
+    border-radius: 10vh;
+}
+
+.hints-btn div{
+    position: absolute;
+    font-family: Montserrat;
+    top: 74%;
+    right: 126.5%;
+    transform: translate(0%, -50%);
+    color: black;
+    height: 100%;
+    width: 20vh;
+    font-size: 0.7478632478632479vw;
+    display: flex;
+    font-weight: 600;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-end;
+}
+
+.leftDown {
+    position: absolute;
+    top: 81vh;
+    width: 45.117466802860061vh;
+    height: 16.908069458631257vh;
+}
+
+.ulicsvg img {
+    position: absolute;
+    top: 13.5vh;
+    left: 0;
+    width: 1.014957264957265vw;
+    height: 1.1752136752136753vw;
+}
+
+.ulictext1 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 12.8vh;
+    left: 3vh;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.9081196581196581vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.045405982905982904vw;
+}
+
+.streettext1 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 14.6vh;
+    left: 3vh;
+
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Montserrat;
+    font-size: 0.75vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.034722222222222224vw;
+}
+
+.banksvg img {
+    position: absolute;
+    top: 11vh;
+    left: 0;
+    width: 0.72vw;
+    height: 0.6vw;
+}
+
+.bank {
+    position: absolute;
+    top: 10.7vh;
+    left: 2.9vh;
+    width: auto;
+    height: auto;
+
+    text-align: left;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Montserrat;
+    font-size: 0.7478632478632479vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.03739316239316239vw;
+}
+.bank1 {
+    position: absolute;
+    top: 10.7vh;
+    left: 2vh;
+    width: auto;
+    height: auto;
+
+    text-align: left;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Montserrat;
+    font-size: 0.7478632478632479vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.03739316239316239vw;
+}
+
+.moneysvg img {
+    position: absolute;
+    top: 8.5vh;
+    left: 0;
+    width: 0.7987179487179488vw;
+    height: 0.7478632478632479vw;
+}
+
+.money {
+    position: absolute;
+    top: 8.06vh;
+    left: 3.2vh;
+    width: auto;
+    height: auto;
+
+    text-align: left;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.9615384615384616vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.04807692307692308vw;
+}
+.money1 {
+    position: absolute;
+    top: 8.06vh;
+    left: 2vh;
+    width: auto;
+    height: auto;
+
+    text-align: left;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.9615384615384616vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.04807692307692308vw;
+}
+
+.nobo a {
+    position: absolute;
+    top: 5.5vh;
+    left: 0;
+    width: auto;
+    height: auto;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.7478632478632479vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.03739316239316239vw;
+}
+
+.nobo b {
+    position: absolute;
+    top: 5.43vh;
+    left: 4.1vh;
+    width: auto;
+    height: auto;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.7478632478632479vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.03739316239316239vw;
+}
+
+.ovhgood {
+    position: absolute;
+    top: 5.5vh;
+    left: 7vh;
+    width: auto;
+    height: auto;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.7478632478632479vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.03739316239316239vw;
+}
+
+.microsvg img {
+    position: absolute;
+    top: 0vh;
+	left: 0vw;
+    width: 2vw;
+    height: 2vw;
+}
+
+.bonusblock {
+    position: absolute;
+    top: 8.9vw;
+    right: 1vw;
+    width: 14.6vw;
+    height: 3.7vw;
+
+    background: linear-gradient(270deg, rgba(66, 221, 255, 0.00) 0%, rgba(66, 221, 255, 0.30) 52.60%, rgba(66, 221, 255, 0.00) 100%);
+}
+
+.bonussvg img {
+    position: absolute;
+    right: 0.4vw;
+    top: 8vw;
+    width: 6.089743589743589vw;
+    height: 5.235042735042735vw;
+}
+
+.bonusblock1 a {
+    position: absolute;
+    top: 9.4vw;
+    right: 6.96vw;
+    width: auto;
+    height: auto;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.58vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.bonusblock1 b {
+    position: absolute;
+    top: 10.2vw;
+    right: 6.96vw;
+    width: auto;
+    height: auto;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.5341880341880342vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bonusblock2 a {
+    position: absolute;
+    top: 10.2vw;
+    right: 10.3vw;
+    width: auto;
+    height: auto;
+
+    color: #FBDD73;
+    font-family: Montserrat;
+    font-size: 0.5341880341880342vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bonusblock2 b {
+    position: absolute;
+    top: 11vw;
+    right: 7vw;
+    width: 2.2435897435897436vw;
+    height: 0.9615384615384616vw;
+
+    text-align: center;
+    color: #252525;
+    font-family: Montserrat;
+    font-size: 0.5876068376068376vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1vw;
+    border-radius: 0.10683760683760683vw;
+    background: #FFF;
+}
+
+.online {
+    position: absolute;
+    top: 1.6vw;
+    right: 7.3vw;
+    width: 9.2vw;
+	font-family: monospace
+}
+
+.id {
+    position: absolute;
+    top: 1.6vw;
+    right: 3.4vw;
+    width: 19vw;
+	font-family: monospace
+}
+
+.logosvg1 img {
+    position: absolute;
+    top: 0.5vw;
+    right: 0.3vw;
+    width: 8.18vw;
+}
+
+.logosvg2 img {
+    position: absolute;
+    top: 1vw;
+    right: 4vw;
+	width: 9vw;
+}
+
+.quest1svg {
+    position: absolute;
+    width: 0.9615384615384616vw;
+    height: 0.9615384615384616vw;
+    top: 13.461538461538462vw;
+    right: 2vw;
+}
+
+.quest2svg {
+    position: absolute;
+    width: 0.21367521367521367vw;
+    height: 0.21367521367521367vw;
+    top: 14.9vw;
+    right: 2.2vw;
+}
+
+.quest1 {
+    position: absolute;
+    top: 13.461538461538462vw;
+    right: 3.6vw;
+    width: auto;
+    height: auto;
+
+    color: #FFF;
+    text-shadow: 0vw 0vw 0.21367521367521367vw rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 0.8012820512820513vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.036057692307692304vw;
+}
+
+
+.quest2 {
+    position: absolute;
+    top: 15vw;
+    right: 3.1vw;
+    width: auto;
+    height: auto;
+
+    color: #FFF;
+    text-shadow: 0vw 0vw 0.21367521367521367vw rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 0.71vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.036057692307692304vw;
+}
+
+.speedometer {
+    position: absolute;
+    top: 84.5536261491317673vh;
+    right: 1vh;
+    width: 22.117466802860061vh;
+    height: 9.908069458631257vh;
+    text-align: right;
+}
+
+.speed_count {
+    position: absolute;
+    top: 4.2vh;
+    right: 6vh;
+    width: 12vh;
+    text-align: center;
+    word-wrap: break-word;
+    font-weight: 600;
+    font-size: 6.537282941777324vh;
+    color: white
+}
+
+.km {
+    position: absolute;
+    top: 4.95vh;
+    right: 1vh;
+    font-weight: 500;
+    font-size: 2.334320735444331vh;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.lock {
+    position: absolute;
+    top: 10.3vh;
+    right: 2.3vh;
+    width: 1.8vh;
+}
+
+.engine {
+    position: absolute;
+    top: 10.4vh;
+    right: 6.5vh;
+    width: 2.6vh;
+}
+
+#hudevo .light {
+    position: absolute;
+    top: 10.5vh;
+    right: 11.3vh; 
+    width: 1.8vh;
+}
+
+.grenzone {
+    position: absolute;
+    top: 80vh;
+    right: 0;
+    width: 20vh;
+}

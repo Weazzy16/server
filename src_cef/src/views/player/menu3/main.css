@@ -1,0 +1,205 @@
+.playermenuhax {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0vh;
+    top: 0vh;
+    /* background: url(https://imgur.com/xfJUbds.png); */
+    background: rgb(26, 26, 26);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.playermenuhax .headerpl {
+    width: 100%;
+    min-height: 11.7593vh;
+    max-height: 11.7593vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 2;
+    position: relative;
+}
+
+.playermenuhax .headerpl .topheaderp {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 11.7593vh;
+    max-height: 11.7593vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 97.40%);
+}
+
+.playermenuhax .headerpl .topheaderp .navmenupl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10.9259vh;
+}
+
+.playermenuhax .headerpl .topheaderp .Usernamep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 19.537vh;
+}
+
+.playermenuhax .headerpl .lineheader {
+    width: 100%;
+    min-height: 1.5vh;
+    /* background: url(https://imgur.com/Y95aU7s.png); */
+    background: rgb(26, 26, 26);
+    background-size: cover;
+    position: relative;
+    top: -1.1vh;
+}
+
+.playermenuhax .headerpl .topheaderp .Usernamep h1 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 0px 0.6481vh rgba(255, 255, 255, 0.50);
+    font-family: SF Pro Display;
+    font-size: 3.0556vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0vh;
+}
+
+.playermenuhax .headerpl .topheaderp .Usernamep p {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 0px 0.6481vh rgba(255, 255, 255, 0.50);
+    font-family: SF Pro Display;
+    font-size: 1.6667vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 19.537vh;
+}
+
+.playermenuhax .headerpl .topheaderp .Usernamep p span.lefttpl {
+    display: block;
+    width: 3.713vh;
+    height: 2.6944vh;
+    /* background: url(https://imgur.com/mYq4cbu.png); */
+    background: rgb(26, 26, 26);
+    background-size: cover;
+    margin-right: auto;
+}
+
+.playermenuhax .headerpl .topheaderp .Usernamep p span.rightpl {
+    display: block;
+    width: 3.713vh;
+    height: 2.6944vh;
+    /* background: url(https://imgur.com/pO2dAXp.png); */
+    background: rgb(26, 26, 26);
+    background-size: cover;
+    margin-left: auto;
+}
+
+.playermenuhax .headerpl .topheaderp .navmenupl .itempl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.9444vh;
+}
+
+.playermenuhax .headerpl .topheaderp .navmenupl .itempl p {
+    margin-bottom: 0vh;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 0px 0.6481vh rgba(255, 255, 255, 0.50);
+    font-family: SF Pro Display;
+    font-size: 1.8222vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.1;
+}
+
+.playermenuhax .headerpl .topheaderp .navmenupl .itempl:hover p {
+    opacity: 1;
+}
+
+.playermenuhax .headerpl .topheaderp .navmenupl .itempl.active p {
+    opacity: 1;
+}
+
+.playermenuhax .headerpl .topheaderp .balancuser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10.9259vh;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.00) 100%);
+    height: 100%;
+    width: 12.5vh;
+}
+
+.playermenuhax .headerpl .topheaderp .balancuser h1 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 0px 0.6481vh rgba(255, 255, 255, 0.25);
+    font-family: SF Pro Display;
+    font-size: 1.8519vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0vh;
+}
+
+.playermenuhax .headerpl .topheaderp .balancuser p {
+    color: #0091FF;
+    text-align: center;
+    text-shadow: 0px 0px 0.6481vh rgba(0, 145, 255, 0.25);
+    font-family: SF Pro Display;
+    font-size: 1.6667vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0vh;
+}
+
+.playermenuhax .headerpl .topheaderp .logo {
+    position: absolute;
+    right: 8.1481vh;
+    width: 12.5741vh;
+    height: 4.5556vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(http://cdn.piecerp.ru/src/views/player/menu/img/logo.png) no-repeat center center;
+}
+
+.playermenuhax .headerpl .topheaderp .closed {
+    position: absolute;
+    right: 2vh;
+}
+
+.playermenuhax .headerpl .topheaderp .closed svg {
+    fill: #E73835;
+}
+
+.playermenuhax .headerpl .topheaderp .closed:hover svg {
+    fill: #df5351;
+}
+
+.playermenuhax .selectermenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}

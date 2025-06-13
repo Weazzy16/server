@@ -295,6 +295,8 @@ require('./player/boombox.js');
 require('./player/wedding.js');
 require('./player/damage/index.js');
 require('./player/chatHeadOverlay.js')
+require('./player/achievements.js');
+
 
 require('./business/businessmanage.js');
 

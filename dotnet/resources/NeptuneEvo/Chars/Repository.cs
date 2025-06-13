@@ -6966,11 +6966,7 @@ public static IReadOnlyDictionary<ClothesComponent, ItemId> ClothesComponentToIt
                             if (characterData.IsAlive && !player.IsInCover)
                             {
                                 player.Health = (player.Health + 5 > 100) ? 100 : player.Health + 5;
-                                if (!characterData.Achievements[21])
-                                {
-                                    characterData.Achievements[21] = true;
-                                    Notify.Send(player, NotifyType.Alert, NotifyPosition.BottomCenter, LangFunc.GetText(LangType.Ru, DataName.Ukrytiefivehp), 5000);
-                                }
+                                
                                 return;
                             }
                         }

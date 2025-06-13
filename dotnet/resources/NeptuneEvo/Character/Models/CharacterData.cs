@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using NeptuneEvo.Quests;
 
+
 namespace NeptuneEvo.Character.Models
 {
     public class CharacterData
@@ -203,11 +204,9 @@ namespace NeptuneEvo.Character.Models
         /// 
         /// </summary>
         [JsonIgnore]
-        public List<bool> Achievements { get; set; } = new List<bool>();
-        /// <summary>
-        /// 
-        /// </summary>
-        [JsonIgnore]
+        
+        
+       
         public bool VoiceMuted { get; set; } = false;
         /// <summary>
         /// 

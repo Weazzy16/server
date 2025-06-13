@@ -64,6 +64,7 @@ namespace NeptuneEvo.Accounts.LoadCharacter
                         v.Lvl,
                         v.Exp,
                         v.Money,
+                        v.Casinochips,
                         v.Bank,
                         v.Gender,
                         v.Pos,
@@ -172,6 +173,7 @@ namespace NeptuneEvo.Accounts.LoadCharacter
                                 { "OrganizationID", memberOrganizationData != null ? memberOrganizationData.Id : 0  },
                                 { "houseId", house != null ? "+" : "-" },
                                 { "Money", character.Money },
+                                { "Casinochips", character.Casinochips },
                                 { "Bank", Bank.GetBalance((int)character.Bank) },
                             });
 

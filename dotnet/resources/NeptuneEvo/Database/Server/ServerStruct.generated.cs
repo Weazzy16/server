@@ -14,6 +14,8 @@ using LinqToDB;
 using LinqToDB.Configuration;
 using LinqToDB.Mapping;
 
+using NeptuneEvo.Chars.Models;
+
 namespace Database
 {
 	/// <summary>
@@ -150,15 +152,16 @@ namespace Database
 		[Column("ga"),                      NotNull] public string   Ga                  { get; set; } // varchar(25)
 	}
 
-	[Table("adminaccess")]
-	public partial class Adminaccesses
-	{
-		[Column("command"), Nullable] public string Command { get; set; } // varchar(50)
-		[Column("isadmin"), Nullable] public bool?  Isadmin { get; set; } // tinyint(1)
-		[Column("minrank"), Nullable] public sbyte? Minrank { get; set; } // tinyint(2)
-	}
 
-	[Table("adminaccessold")]
+    [Table("adminaccess")]
+    public partial class Adminaccesses
+    {
+        [Column("command"), Nullable] public string Command { get; set; } // varchar(50)
+        [Column("isadmin"), Nullable] public bool? Isadmin { get; set; } // tinyint(1)
+        [Column("minrank"), Nullable] public sbyte? Minrank { get; set; } // tinyint(2)
+    }
+
+    [Table("adminaccessold")]
 	public partial class Adminaccessolds
 	{
 		[Column("command"), NotNull] public string Command { get; set; } // varchar(50)
@@ -356,6 +359,7 @@ namespace Database
 		[Column("hotelleft"),       Nullable          ] public int?      Hotelleft         { get; set; } // int(11)
 		[Column("contacts"),        Nullable          ] public string    Contacts          { get; set; } // varchar(2500)
 		[Column("achiev"),          Nullable          ] public string    Achiev            { get; set; } // varchar(2450)
+		[Column("achievcounters"),  Nullable          ] public string    Achievcounters    { get; set; } // varchar(2450)
 		[Column("sim"),             Nullable          ] public int?      Sim               { get; set; } // int(11)
 		[Column(),               NotNull              ] public string    PetName           { get; set; } // varchar(30)
 		[Column("pos"),             Nullable          ] public string    Pos               { get; set; } // varchar(256)

@@ -148,8 +148,9 @@ namespace NeptuneEvo.Handles
         {
             BattlePassData = battlePassData;
         }
-        
+
         //
+
         public MissionData MissionData;
         public void SetMissionTask(MissionData missionData)
         {
